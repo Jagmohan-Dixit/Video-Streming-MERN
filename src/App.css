@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar {
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: aquamarine;
+}
+.navbar__text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.navbar__ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar__ul li a{
+  text-decoration: none;
+  padding: 0 15px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+}
+
+
+.input {
+  /* padding: 20px; */
+  font-size: 15px;
+  width: 80%;
+}
