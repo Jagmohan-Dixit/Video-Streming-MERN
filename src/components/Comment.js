@@ -78,8 +78,7 @@ const CommentFooter = ({item, comment, isOpen}) => {
           onClick={(e) => handleLike(e, item)}
           style={{ padding: "-5px" }}
         >
-          {isLiked ? <ThumbUp /> : <ThumbDownOutlined />} <hr />
-          <hr /> <hr />
+          {isLiked ? <ThumbUp /> : <ThumbDownOutlined />} &nbsp;&nbsp;
           {comment.likes > 1000
             ? (comment.likes / 1000).toFixed(2) + "k"
             : comment.likes}

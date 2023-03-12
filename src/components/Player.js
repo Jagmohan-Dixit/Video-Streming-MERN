@@ -21,7 +21,6 @@ export default function Player() {
           <video className="video" autoPlay progress controls src={item.video} />
         </Grid>
       </Grid>  
-
       <LikeView item={item} data={data} /> 
       <Comment data={data} item={item} />
     </>

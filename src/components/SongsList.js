@@ -13,53 +13,6 @@ import LikeView from "./LikeView";
 import LikeReducer from "../context/LikeContext/LikeReducer";
 import { LikeContext } from "../context/LikeContext/LikeContext";
 
-// const res = [
-//   {
-//     title: "First Video",
-//     video: video1,
-//     image: Poster,
-//     likes: 20,
-//     views: 20000,
-//     comments: ["Nice video", "Goood"],
-//     isLiked : false,
-//   },
-//   {
-//     title: "Second Video",
-//     video: video2,
-//     image: Poster,
-//     likes: 355,
-//     views: 35300,
-//     comments: ["Nice video", "Goood"],
-//     isLiked : false,
-//   },
-//   {
-//     title: "Third Video",
-//     video: video3,
-//     image: Poster,
-//     likes: 365,
-//     views: 65400,
-//     comments: ["Nice video", "Goood"],
-//     isLiked : false,
-//   },
-//   {
-//     title: "Fourth Video",
-//     video: video4,
-//     image: Poster,
-//     likes: 785,
-//     views: 83856,
-//     comments: ["Nice video", "Goood"],
-//     isLiked : false,
-//   },
-//   {
-//     title: "Fifth Video",
-//     video: video5,
-//     image: Poster,
-//     likes: 5678,
-//     views: 36388,
-//     comments: ["Nice video", "Goood"],
-//     isLiked : false,
-//   },
-// ];
 
 const SongsList = () => {
   const navigate = useNavigate();

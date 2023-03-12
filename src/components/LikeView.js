@@ -37,8 +37,7 @@ export default function LikeView({item, data}) {
           onClick={(e) => handleLike(e, item)}
           style={{ marginRight: "10px", padding: "-5px" }}
         >
-          {isLiked ? <ThumbUp /> : <ThumbDownOutlined />} <hr />
-          <hr /> <hr />
+          {isLiked ? <ThumbUp /> : <ThumbDownOutlined />} &nbsp;&nbsp;
           {item.likes > 1000
             ? (item.likes / 1000).toFixed(2) + "k"
             : item.likes}
