@@ -30,7 +30,7 @@ const SongsList = () => {
   return (
     <>
       <div style={{ padding: "20px" }}>
-      <h2 className="parentVideo">My Video Songs</h2>
+      <h2 className="parentVideo" style={{color:"white"}}>My Video Songs</h2>
         <Grid container spacing={2} style={{ padding: "20px" }}>
           {item && item.map((data) => {
             return (

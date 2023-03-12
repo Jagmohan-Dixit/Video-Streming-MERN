@@ -53,7 +53,7 @@ export default function LikeView({item, data}) {
             style={{ textTransform: "none" }}
             onClick={(e) => handleShare(e, item)}
           >
-            Share <hr /> <hr /> <Share />
+            Share <Share />
           </Button>
         </Typography>
       </Typography>

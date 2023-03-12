@@ -7,7 +7,7 @@ const Home = () => {
   const [data, setData] = useState("");
   
   return (
-    <div>
+    <div className="head">
       <Navbar />
       <SongsList />
     </div>
